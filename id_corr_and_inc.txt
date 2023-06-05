@@ -1,3 +1,8 @@
 #Correct video_names ids
 video_names = [1, 2, 3, 4, 5, 6, 7, 47, 78, 79, 80, 83, 85, 100, 101, 102, 113, 114, 115, 116, 127, 129, 131, 132, 133
                 , 134, 135, 136, 137, 138, 140, 141, 142, 144, 146, 147, 148, 162, 163, 164, 165, 173, 174, 175, 176, 177, 178, 186, 187, 188, 197]
+
+# Incorrect video_names
+video_names = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12','13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', 'Copy of push up 36', 'Copy of push up 37', 'Copy of push up 42','Copy of push up 44',
+                'Copy of push up 46','Copy of push up 55','Copy of push up 56','Copy of push up 57','Copy of push up 58','Copy of push up 81','Copy of push up 104','Copy of push up 105',
+                'Copy of push up 107', 'Copy of push up 108', 'Copy of push up 110', 'Copy of push up 149', 'Copy of push up 150', 'Copy of push up 151', 'Copy of push up 152', 'Copy of push up 153', 'Copy of push up 155', 'Copy of push up 156', 'Copy of push up 166', 'Copy of push up 167', 'Copy of push up 168', 'Copy of push up 171', 'Copy of push up 198']   
