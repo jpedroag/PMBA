@@ -2,3 +2,6 @@
 # conda install -c conda-forge cmake protobuf
 
 mediapipe
+
+# open pose
+# git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
