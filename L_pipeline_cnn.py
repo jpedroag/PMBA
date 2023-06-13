@@ -81,9 +81,9 @@ def predict_up(filepath):
                     solutions.pose.POSE_CONNECTIONS,
                     solutions.drawing_styles.get_default_pose_landmarks_style())
 
-    cv2.imshow('Image', annotated_image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('Image', annotated_image)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
     
     # Convert the numpy array to a PIL image
     annotated_image_pil = Image.fromarray(annotated_image)
@@ -175,9 +175,9 @@ def predict_down(filepath):
                     solutions.pose.POSE_CONNECTIONS,
                     solutions.drawing_styles.get_default_pose_landmarks_style())
 
-    cv2.imshow('Image', annotated_image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('Image', annotated_image)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
     
     # Convert the numpy array to a PIL image
     annotated_image_pil = Image.fromarray(annotated_image)
