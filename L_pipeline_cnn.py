@@ -11,7 +11,7 @@ from PIL import Image
 
 
 # Function to do the predicion of up pose
-def predict_up(filepath):
+def predict_up(image):
 
     # Load Models
     model_up = models.resnet18(pretrained=True)      
@@ -54,10 +54,10 @@ def predict_up(filepath):
 
     with PoseLandmarker.create_from_options(options) as landmarker:
         # Read the image using OpenCV
-        image = cv2.imread(filepath)
+        #image = cv2.imread(filepath)
 
         # Perform pose landmarking on the image
-        image = mp.Image.create_from_file(filepath)
+        #image = mp.Image.create_from_file(filepath)
         pose_landmarker_result = landmarker.detect(image)
 
         pose_landmarks_list = pose_landmarker_result.pose_landmarks
@@ -107,7 +107,7 @@ def predict_up(filepath):
     else:
         return 'wrong_seq'
 
-def predict_down(filepath):
+def predict_down(image):
 
     # Load Models
     model_down = models.resnet18(pretrained=True)  
@@ -148,10 +148,10 @@ def predict_down(filepath):
 
     with PoseLandmarker.create_from_options(options) as landmarker:
         # Read the image using OpenCV
-        image = cv2.imread(filepath)
+        #image = cv2.imread(filepath)
 
         # Perform pose landmarking on the image
-        image = mp.Image.create_from_file(filepath)
+        #image = mp.Image.create_from_file(filepath)
         pose_landmarker_result = landmarker.detect(image)
 
         pose_landmarks_list = pose_landmarker_result.pose_landmarks
